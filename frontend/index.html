@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam-Sheid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Scam Shield</h1>
+    <div class="card">
+        <h2>Message Analyzer</h2>
+        <textarea id="msg"
+        placeholder="Paste SMS, Email or WhatsApp message"></textarea>
+        <button onclick="analyzeMessage()">Analyze Message</button>
+        <p id="result"></p>
+    </div>
+    <div class="card">
+        <h2>URL Detector</h2>
+        <input type="text" id="url" placeholder="Enter URL">
+        <button onclick="checkURL()">Check URL</button>
+        <p id="urlResult"></p>
+    </div>
+    <div class="card">
+        <h2>Cyber Security News</h2>
+        <button onclick="getNews()">Get Latest News</button>
+        <button onclick="nextNews()">Next Article</button>
+        <div id="newsBox"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
